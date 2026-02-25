@@ -1,10 +1,4 @@
-# Print after the loop → to show final result
-
-# Print inside the loop → to show step-by-step processing
-
-
-
-"""i=1
+i=1
 while(i<=20):
     if(i%2!=0):
      print(i)
@@ -18,8 +12,6 @@ while(av_seats>0):
         av_seats-=seat_book
         print(f"no of available seats{av_seats}")
 print("all seats are booked") 
-
-
 
 
 i=10
@@ -65,8 +57,6 @@ for i in range(31):
     if(i%3==0):
         print(i)
 
-        
-       
 
 #Sum of First 10 Numbers:
 sum=0
@@ -99,10 +89,7 @@ for letter in str:
         count+=1
 print(count)
 
-"""
-
 #looping through lists
-
 
 #Sum of all numbers in a list
 list=[1,2,3,4,5]
@@ -122,9 +109,3 @@ l2=[]
 for num in l1:
     l2.append(num*2)  #correct method
 print(l2)
-
-
-
-l1=[2,4,6,8]
-for num in l1:
-    print(num*2 ,end=' ') #this is not correct because it doesn't give values in list
