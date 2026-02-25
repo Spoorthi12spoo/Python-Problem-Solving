@@ -1,3 +1,4 @@
+#001.Python program to remove given character from String.
 text=input()
 remove_char=input("enter a character you wanted to remove: ")
 if remove_char in text:
