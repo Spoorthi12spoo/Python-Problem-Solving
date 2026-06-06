@@ -1,4 +1,4 @@
-#005.	Write a program in Python to find greatest among three integers.
+#005.Write a program in Python to find greatest among three integers.
 
 a,b,c=map(int,input("enter three numbers: ").split())
 if (a>b) and (a>c):
