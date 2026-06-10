@@ -4,3 +4,9 @@ letters=['a','b','c']
 numbers=[1,2,3]
 D={letters[i]:numbers[i] for i  in range(len(letters))}
 print(D)
+
+#or   zip() is a built-in Python function used to combine multiple iterables (like lists, tuples, etc.) element by element.
+letters=['a','b','c']
+numbers=[1,2,3]
+D={letter:number for letter,number in zip(letters,numbers)}
+print(D)
