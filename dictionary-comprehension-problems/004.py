@@ -3,3 +3,7 @@ D={1:'a', 2:'b', 3:'c',4:'c'}
  
 swap={value:key for key,value in D.items()}   #it works only if values are unique
 print(swap)
+
+#it works even values are same
+result = {v: [k for k, val in D.items() if val == v] for v in set(D.values())}
+print(result)
